@@ -1,4 +1,3 @@
-import React from 'react';
 import './Button.css';
 
 function Button({textOnBtn, btnClassName, inlineStyle}) {
@@ -18,4 +17,3 @@ function Button({textOnBtn, btnClassName, inlineStyle}) {
   }
   
   export default Button;
-  

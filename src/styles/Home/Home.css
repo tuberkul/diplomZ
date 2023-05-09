@@ -100,14 +100,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.about_us p{
-  max-width: 950px;
-}
-
-.about_us p:not(:first-child) {
-  margin-bottom: 50px;
+  background: #ebebeb;
 }
 
 .adress {
@@ -127,7 +120,65 @@ address p:first-child {
 
 .textUnderButton {
   line-height: 1.45;
+  max-width: 600px;
 }
+
+.item_review {
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.item_review img {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  max-width: 100px;
+}
+
+.item_review p {
+  max-width: 500px;
+  font-size: 16px;
+}
+
+.item_review p:first-child {
+  font-size: 18px;
+}
+
+.discounts {
+  display: flex;
+  flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.discounts_items_wrapper {
+  display: flex;
+  flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: center;
+}
+.discounts_item {
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+}
+
+.discounts_item img{
+  max-width: 300px;
+}
+
+.discounts_item p {
+  max-width: 400px;
+} 
+
+
 @keyframes spin {
     0% {
       transform: translate3d(0, -100%, 0);
