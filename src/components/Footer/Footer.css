@@ -1,0 +1,56 @@
+.footer {
+    /* height: 550px; */
+    background-size: cover;
+    background-image: url(https://thumb.tildacdn.com/tild3665-3838-4661-a564-656566616234/-/format/webp/IMG_5054.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+
+.footer_center {
+    margin-bottom: 80px;
+}
+
+.footer_adress {
+    margin-bottom: 40px;
+}
+
+.social_and_media_wrapp {
+    display: flex;
+    width: 100%;
+}
+
+.social_and_media {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 300px;
+    width: 100%;
+}
+
+.social_and_media svg {
+    cursor: pointer;
+}
+
+.footer_down_wrapper {
+    background-color: #121212;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer_down {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 600px;
+    width: 100%;
+
+    color: #d1d1d1;
+}
+
+.footer_down p {
+    cursor: pointer;
+}
