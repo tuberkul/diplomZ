@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import "./PopupCart.css"
+import Button from "../Button/Button";
 import IMask from "imask";
 const Popup = props => {
   const[PopupClass, setPopupClass] = useState("popup-box")
@@ -47,20 +48,25 @@ const Popup = props => {
             <option value="5">5</option>
           </select>
           <label>Варианты доставки</label>
-          <label for="pickupDelivery" class="light">Самовывоз</label><input type="radio" name="deliverType" id="pickupDelivery"/>
-          <label for="courierDelivery" class="light">Доставка курьером 300 руб.</label><input type="radio" name="deliverType" id="courierDelivery"/>
+          <div className="deliveryType">
+            <label htmlFor="pickupDelivery" className="light"><input type="radio" name="deliverType" id="pickupDelivery"/>Самовывоз</label>
+            <label htmlFor="courierDelivery" className="light"><input type="radio" name="deliverType" id="courierDelivery"/>Доставка курьером 300 руб.</label>
+          </div>
           <label>Способ оплаты</label>
-          <label for="inRestoraunt" class="light">Оплата в ресторане при получении</label><input type="radio" name="paymentMethod" id="inRestoraunt" />
-          <label for="onlinePay" class="light">Кредитной картой (Visa, Mastercard) через Сбербанк</label><input type="radio" name="paymentMethod" id="onlinePay" />
+          <div className="paymentType">
+            <label htmlFor="inRestoraunt" className="light"><input type="radio" name="paymentMethod" id="inRestoraunt" />Оплата в ресторане при получении</label>
+            <label htmlFor="onlinePay" className="light"><input type="radio" name="paymentMethod" id="onlinePay" />Кредитной картой (Visa, Mastercard) через Сбербанк</label>
+          </div>
           <div className="theAmount">
             <div className="amount">
-             Сумма:510руб.
+             <p>Сумма:510руб.</p>
             </div>
             <div className="totalAmount">
-             Итоговая сумма: 510руб.
+             <p style={{fontSize: "24px"}}><b>Итоговая сумма: 510руб.</b></p>
             </div>
           </div>
-          <button type="submit">Оформить заказ</button>
+          <Button textOnBtn="Оформить заказ" btnClassName="ussualBtn" inlineStyle="padding:0 60px:fontSize:16px:marginBottom:40px:lineHeight:60px:marginTop:20px:width:100%"></Button>
+          {/* <button type="submit">Оформить заказ</button> */}
           <p>Отправляя данные, вы соглашаетесь с условиями обработки персональных данных.</p>
         </form>
       </div>
