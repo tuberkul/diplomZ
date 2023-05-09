@@ -1,0 +1,55 @@
+.ussualBtn {
+    padding: 1rem;
+    background-color: #90beab;
+    color: #ffffff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    font-family: 'OpinionPro',Arial,sans-serif;
+    border: 2px solid transparent;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.ussualBtn:hover {
+    background: #ffffff;
+    border: 2px solid #90beab;
+    color: #90beab;
+    transition: 0.5s;
+}
+
+.btnWithoutBackground {
+    padding: 1rem;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    font-family: 'OpinionPro',Arial,sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border: 1px solid #90beab;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.btnWithoutBackground:hover {
+    background: #90beab;
+    transition: 0.5s;
+}

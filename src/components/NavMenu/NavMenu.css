@@ -1,0 +1,52 @@
+.NavMenuWrapper {
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background: transparent;
+    z-index: 1;
+    transition: 1s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    width: 40%;
+}
+
+.logo img {
+    max-width: 120px;
+    padding-left: 30px;
+}
+
+.navMenuList {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navMenuList div {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.navMenuList div:hover {
+    color: #90beab;
+    transition: 0.5s;
+}
+
+.bgBlack {
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 380px) {
+    .navMenuList {
+        display: none;
+    }
+}

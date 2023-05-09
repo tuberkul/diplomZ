@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Opinion Pro';
+  src: local('./fonts/roboto/Opinion Pro Light'), local('./fonts/roboto/Opinion-Pro-Light'),
+      url('./fonts/roboto/OpinionPro-Light.woff2') format('woff2'),
+      url('./fonts/roboto/OpinionPro-Light.woff') format('woff'),
+      url('./fonts/roboto/OpinionPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Opinion Pro' 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas,'Opinion Pro' 'Courier New',
+    monospace;
+}
+
+.white {
+  color: white
+}
+
+.black {
+  color: black;
+}
+
+h1 {
+  letter-spacing: 1px;
+  font-size: 52px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 600;
+}

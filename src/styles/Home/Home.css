@@ -1,0 +1,166 @@
+.box {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('../../img/bg-static-main.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-attachment: fixed;
+}
+
+.background-tint { 
+    position: relative; 
+}
+
+.background-tint::after {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    margin: auto;
+}
+
+.u-relative { 
+    position: relative; 
+    z-index: 1; 
+    animation: 1s ease 0s normal forwards 1 fadein;;
+
+} 
+
+.u-relative h1{
+    max-width: 800px;
+}
+
+.arrowDown {
+    position: absolute;
+    bottom: 25px;
+    animation: spin 1.4s infinite linear;
+    cursor: pointer;
+}
+
+.minMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.minMenu_headline {
+  max-width: 850px;
+}
+
+.minMenu_headline  p {
+  line-height: 1.55;
+  font-size: 18px;
+}
+
+.btnsMenuWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.minMenuItem {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  justify-content: space-evenly;
+
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.minMenuItem img {
+  max-height: 360px;
+  max-width: 360px;
+}
+
+.MinMenuItemWrapper p {
+  text-align: left;
+}
+
+.minDelivery {
+  height: 550px;
+  background-size: cover;
+  background-image: url('../../img/bg-static-delivery.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-attachment: fixed;
+}
+
+.about_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_us p{
+  max-width: 950px;
+}
+
+.about_us p:not(:first-child) {
+  margin-bottom: 50px;
+}
+
+.adress {
+  width: 100%;
+  max-width: 850px;
+  border-top: 1px solid #90beab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+address p:first-child {
+  font-size: 16px;
+  line-height: 1.35;  
+}
+
+.textUnderButton {
+  line-height: 1.45;
+}
+@keyframes spin {
+    0% {
+      transform: translate3d(0, -100%, 0);
+    }
+    50% {
+      transform: translate3d(0, 100%, 0);
+    }
+    100% {
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      transform: translate3d(0, -100%, 0);
+    }
+    50% {
+      transform: translate3d(0, 100%, 0);
+    }
+    100% {
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+
+
+  @keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
