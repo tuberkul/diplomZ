@@ -13,13 +13,12 @@ function App() {
   return (
     <div className="App">
 
+
+      <Router>
       <NavMenu>
       </NavMenu>
       <Popup> 
       </Popup>
-
-      <NavMenu/>
-      <Router>
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/menu' element={<Menu />} />

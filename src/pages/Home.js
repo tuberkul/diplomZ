@@ -4,6 +4,7 @@ import * as data from '../service/menuItems.json';
 import MinMenuItem from '../components/MInMenuItem/MinMenuItem';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import {NavLink} from "react-router-dom";
 
 const result = [];
 for(var i in data) {
@@ -12,7 +13,7 @@ for(var i in data) {
 
 const elements = result.map((item, i) => {
   if ( i < 9) {
-    return (<MinMenuItem key={i} data = {item[1]}/>)
+    return (<NavLink to="/menu" key={i}><MinMenuItem data = {item[1]} onClick={onTouchMenu}/></NavLink>)
   } else {
     return('')
   }
@@ -25,6 +26,10 @@ const responsive = {
 };
 const handleDragStart = (e) => {
   e.preventDefault();
+
+}
+
+function onTouchMenu() {
 
 }
 
