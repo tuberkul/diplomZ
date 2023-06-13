@@ -1,0 +1,10 @@
+.box-menu {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('../../img/574600e440c088c5398b.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-attachment: fixed;
+}

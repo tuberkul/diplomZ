@@ -21,6 +21,7 @@
 .social_and_media_wrapp {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .social_and_media {
