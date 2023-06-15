@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 
 import "./NavMenu.css"
-import logo from '../../img/logo.png'
+import logo from '../../img/logo_2.png'
 import Button from "../Button/Button";
 function NavMenu() {
     const [classForNavMenuWrapper, setclassForNavMenuWrapper] = useState('NavMenuWrapper');
@@ -24,9 +24,7 @@ function NavMenu() {
             <div className="white">О нас</div>
             <div className="white">Меню</div>
             <div className="white">Акции</div>
-            <div className="white">Банкеты</div>
             <div className="white">Контакты</div>
-            <div className="white">Доставка</div>
                 <Button textOnBtn="Забронировать столик" btnClassName="btnWithoutBackground" inlineStyle="padding:0px 30px:fontSize:14px:height:35px"></Button>
             </div>
         </div>
