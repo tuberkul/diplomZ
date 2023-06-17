@@ -10,7 +10,7 @@ const result = [];
 for(var i in data) {
   result.push([i, data[i]]);
 }
-
+console.log(result)
 const elements = result.map((item, i) => {
   if ( i < 9) {
     return (<NavLink to="/menu" key={i}><MinMenuItem data = {item[1]} onClick={onTouchMenu}/></NavLink>)
@@ -129,7 +129,7 @@ document.querySelectorAll(".scrollToMenu").forEach(link => {
 function Home() {
 
     return (
-      <div className="Home">
+      <div className="Home" name="home">
         <div className="box background-tint">
           <div className="u-relative">
             <h1 className='white'>РЕСТОРАНЫ ЗДОРОВОГО ПИТАНИЯ GRAIN</h1>
@@ -137,7 +137,7 @@ function Home() {
           </div>
         </div>
         <svg className='arrowDown scrollToMenu' role="presentation" style={{fill:"#ffffff"}} x="0px" y="0px" width="38.417px" height="30.592px" viewBox="0 0 38.417 18.592"><g><path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path></g></svg>
-        <div className="minMenu">
+        <div className="minMenu" name="menu">
           <div className="minMenu_headline">
               <h2>Разделы нашего меню</h2>
               <p>В нашем меню вы найдете широкий выбор блюд, созданных с использованием свежих овощей, зелени и сезонных фруктов. Наша команда талантливых поваров готовит для вас овощные салаты, рыбные и мясные горячие блюда, приготовленные с использованием нежирных и качественных ингредиентов. В баре нашего ресторана представлены свежевыжатые соки, освежающие зеленые смузи и нежирные молочные коктейли, подборка качественных и натуральных напитков, включая органические чаи и травяные настои, а также, безалкогольных коктейлей, приготовленных с использованием свежих фруктов и натуральных ингредиентов.</p>
@@ -158,9 +158,9 @@ function Home() {
             <Button textOnBtn="Посмотреть меню" btnClassName="ussualBtn" inlineStyle="padding:20px 60px:fontSize:16px:height:55px:marginTop:20px"></Button>
           </div>
         </div>
-        <div className="about_us">
+        <div className="about_us" name="aboutUs">
           <h2>Немного о нас:</h2>
-          <p>Мы являемся идеальным местом для тех, кто стремится сохранить здоровье и наслаждаться вкусной пищей одновременно. Мы верим в то, что правильное питание – это не только ключ к благополучию и энергии, но и источник удовольствия. В нашем ресторане мы уделяем особое внимание выбору ингредиентов. Мы тщательно отбираем только свежие и натуральные продукты высокого качества. Наше меню разнообразно и включает в себя широкий выбор блюд, от бодрящих салатов и супов до сытных основных блюд и заманчивых десертов.</p>
+          <p className='textAbout_us'>Мы являемся идеальным местом для тех, кто стремится сохранить здоровье и наслаждаться вкусной пищей одновременно. Мы верим в то, что правильное питание – это не только ключ к благополучию и энергии, но и источник удовольствия. В нашем ресторане мы уделяем особое внимание выбору ингредиентов. Мы тщательно отбираем только свежие и натуральные продукты высокого качества. Наше меню разнообразно и включает в себя широкий выбор блюд, от бодрящих салатов и супов до сытных основных блюд и заманчивых десертов.</p>
           <AliceCarousel  mouseTracking
                           items={items}
                           responsive={responsive}
@@ -182,7 +182,7 @@ function Home() {
                           />
           <Button textOnBtn="ОСТАВИТЬ ОТЗЫВ" btnClassName="ussualBtn" inlineStyle="padding:0 60px:fontSize:16px:marginBottom:40px:lineHeight:60px:marginTop:20px"></Button>
         </div>
-        <div className="discounts">
+        <div className="discounts" name="promo">
           <h2>Наши скидки и акции</h2>
           <div className="discounts_items_wrapper">
             <div className="discounts_item">

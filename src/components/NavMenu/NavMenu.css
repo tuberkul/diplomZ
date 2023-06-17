@@ -21,6 +21,7 @@
 .logo img {
     max-width: 120px;
     padding-left: 30px;
+    cursor: pointer;
 }
 
 .navMenuList {
@@ -35,7 +36,7 @@
     font-size: 20px;
 }
 
-.navMenuList div:hover {
+.btnToScroll:hover {
     color: #71db43;
     transition: 0.5s;
 }

@@ -5,7 +5,7 @@
   height: 100vh;
   top: 0;
   left: 0;
-  display: none;
+  display: block;
   z-index: 2;
 }
  
@@ -34,8 +34,8 @@
   content: 'x';
   cursor: pointer;
   position: fixed;
-  right: calc(15% - 30px);
-  top: calc(100vh - 85vh - 33px);
+  right: calc(30% + 30px);
+  top: calc(100vh - 85vh - 88px);
   background: #ededed;
   width: 25px;
   height: 25px;
@@ -55,13 +55,14 @@
   flex-direction: column;
   align-items: flex-start;
   max-width: 500px;
+  margin-top: 30px;
 }
 
 .popContainer form label {
   margin-bottom: 10px; 
 }
 
-.popContainer form input:not(input[type="radio"]) {
+.popContainer form input[type="text"], .popContainer form input[type="tel"]{
   width: calc(100% - 15px);
   border-radius: 20px;
   line-height: 35px;
@@ -92,4 +93,64 @@
   width: 100%;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.popContainer::-webkit-scrollbar {
+  width: 12px;               /* ширина scrollbar */
+}
+
+form svg{
+  cursor: pointer;
+}
+
+.borderInForm {
+  border: 1px solid rgb(201, 201, 201);
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+}
+
+.borderInFormDate {
+  border: 1px solid rgb(201, 201, 201) !important;
+  padding: 15px;
+}
+
+.counter_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+}
+
+input[type="date"]{
+  /* background-color: #0080ff; */
+  padding: 15px;
+  /* position: absolute; */
+  /* transform: translate(-50%,-50%); */
+  /* top: 50%; */
+  /* left: 50%; */
+  font-family: "Roboto Mono",monospace;
+  color: #000000;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+input[type='radio'] {
+  accent-color: rgb(140,194,63);
 }

@@ -7,18 +7,21 @@ import Footer from './components/Footer/Footer';
 import NavMenu from './components/NavMenu/NavMenu';
 
 import './App.css';
+import { useState } from 'react';
 
 
 function App() {
+  const [visibilaty, setVisibilaty] = useState('false');
+
+
   return (
     <div className="App">
 
-
-      <Router>
-      <NavMenu>
-      </NavMenu>
-      <Popup> 
+      <Popup visibilaty={visibilaty}> 
       </Popup>
+      <Router>
+      <NavMenu setVisibilaty={setVisibilaty}>
+      </NavMenu>
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/menu' element={<Menu />} />

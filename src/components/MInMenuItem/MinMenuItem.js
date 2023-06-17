@@ -1,3 +1,4 @@
+import "./MinMenuItem.css"
 
 function MinMenuItem(props) {
     const data = props.data;
@@ -5,7 +6,7 @@ function MinMenuItem(props) {
   return (
     <div className="MinMenuItemWrapper">
         <img src={img} alt="" />
-        <p><b>{name}</b></p>
+        <p style={{maxWidth:"250px"}}><b>{name}</b></p>
         <p>от {price} р</p>
     </div>
   );

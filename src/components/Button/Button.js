@@ -1,6 +1,6 @@
 import './Button.css';
 
-function Button({textOnBtn, btnClassName, inlineStyle}) {
+function Button({textOnBtn, btnClassName, inlineStyle, onHandleClick}) {
   let styleObj = {};
   var arr = inlineStyle.split(':');
   arr.forEach((e, i) => {
@@ -10,7 +10,7 @@ function Button({textOnBtn, btnClassName, inlineStyle}) {
   })
     const text = textOnBtn;
     return (
-      <button className={btnClassName} style={styleObj}>
+      <button className={btnClassName} style={styleObj} onClick={onHandleClick}>
           {text}
       </button>
     );

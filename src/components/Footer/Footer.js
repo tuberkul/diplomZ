@@ -2,7 +2,7 @@ import './Footer.css'
 
 function Footer() {
     return (
-      <div className="footer background-tint">
+      <div className="footer background-tint" name="contacts">
         <div className="footer_center u-relative">
             <h2 className="white">Пишите, звоните и приходите к нам в гости.</h2>
             <div className="footer_adress white">

@@ -1,0 +1,15 @@
+.MinMenuItemWrapper {
+    background: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.MinMenuItemWrapper p {
+    padding-left: 10px;
+}
+
+.MinMenuItemWrapper img {
+    border-radius: 15px 15px 0px 0;
+}

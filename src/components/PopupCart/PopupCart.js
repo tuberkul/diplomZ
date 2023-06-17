@@ -1,9 +1,10 @@
-import React,{useState} from "react";
+import React, {useState, useEffect} from "react";
 import "./PopupCart.css"
 import Button from "../Button/Button";
 import IMask from "imask";
 const Popup = props => {
   const[PopupClass, setPopupClass] = useState("popup-box")
+  const [counter, setCounter] = useState(0)
   function onClosePopup (){
     setPopupClass("popupBoxClose") 
   }
@@ -11,61 +12,61 @@ const Popup = props => {
   //   document.getElementById('phone-mask'), {
   //     mask: '+{7}(000)000-00-00'
   //   });
+  const handleClick1 = () => {
+    // Counter state is incremented
+    setCounter(counter + 1)
+  }
+  
+  // Function is called everytime decrement button is clicked
+  const handleClick2 = () => {
+    // Counter state is decremented
+    setCounter(counter - 1)
+    if (counter <= 0) {
+      setCounter(0)
+    }
+  }
+
+  useEffect(() => {
+    console.log(1)
+    if (props.visibilaty) {
+      setPopupClass("popup-box")
+    }
+}, [])
+// if (props.visibilaty) {
+//   setPopupClass("popup-box")
+// }
+
   return (
     <div className={PopupClass}>
       <div className="popContainer">
         <span className="close-icon" onClick={onClosePopup}>x</span> 
-        <h3>Ваш заказ</h3> 
-        <div>здесь будет отображаться выбранные блюда</div>
-        <div>а здесь калькулятор цены</div>
-        <ul>
-          <li>При заказе на сумму свыше 1700 руб. на доставку или самовывоз дарим большую пиццу «С лошадиной спермой» в подарок</li>
-          <li>При заказе на сумму свыше 3000 руб. бесплатно накончают в рот</li>
-        </ul>
+        <h3>БРОНИРОВАНИЕ СТОЛИКА</h3> 
+        <div>Заполните форму для бронирования и получите скидку 10% на весь счет</div>
         <form action="">
-          <input placeholder="Имя" type="text" id="name" name="client_name"/>
-          <input type="tel" id="telNumber" name="client_tel" />
-          <label htmlFor="email">Электронная почта</label>
-          <input type="email" id="clientEmail" name="client_email" />
-          <label htmlFor="text">Доставка</label>
-          <input placeholder="Адрес и квартира" type="text" id="delivery" name="client_adress" />
-          <label htmlFor="pickup">Самовывоз из ресторана</label>
-          <select name="pickupPoint" id="pickup">
-            <option value="nope">Нет</option>
-            <option value="Vosstanie">ул.Восстания, 33</option>
-            <option value="Vladimirsky">ул. Владимирский пр., 8</option>
-            <option value="Lanskoe">ул. Ланское шоссе, 13</option>
-            <option value="Marata">ул. Марата, 67/17</option>
-            <option value="Zaharevskaya">ул. Захарьевская, 27</option>
-          </select>
-          <input placeholder="Комментарий к заказу" type="text" id="comment" name="commentToTheOrder"/>
-          <label htmlFor="tableware">Количество приборов</label>
-          <select name="tablewareNumber" id="tableware">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-          <label>Варианты доставки</label>
-          <div className="deliveryType">
-            <label htmlFor="pickupDelivery" className="light"><input type="radio" name="deliverType" id="pickupDelivery"/>Самовывоз</label>
-            <label htmlFor="courierDelivery" className="light"><input type="radio" name="deliverType" id="courierDelivery"/>Доставка курьером 300 руб.</label>
-          </div>
-          <label>Способ оплаты</label>
-          <div className="paymentType">
-            <label htmlFor="inRestoraunt" className="light"><input type="radio" name="paymentMethod" id="inRestoraunt" />Оплата в ресторане при получении</label>
-            <label htmlFor="onlinePay" className="light"><input type="radio" name="paymentMethod" id="onlinePay" />Кредитной картой (Visa, Mastercard) через Сбербанк</label>
-          </div>
-          <div className="theAmount">
-            <div className="amount">
-             <p>Сумма:510руб.</p>
+          <input placeholder="Ваше имя" type="text" id="name" name="client_name"/>
+          <input placeholder="Ваш телефон" type="tel" id="telNumber" name="client_tel" />
+          <p>Количество гостей</p>
+          <div className="counter_wrapper">
+            <svg onClick={handleClick2} xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24"><title/><g id="Complete"><g id="minus"><line fill="none" stroke="rgb(140,194,63)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="4" x2="20" y1="12" y2="12"/></g></g></svg>
+            <div className="borderInForm">
+                {counter}
             </div>
-            <div className="totalAmount">
-             <p style={{fontSize: "24px"}}><b>Итоговая сумма: 510руб.</b></p>
-            </div>
+            <svg onClick={handleClick1} xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M11 17C11 17.5523 11.4477 18 12 18C12.5523 18 13 17.5523 13 17V13H17C17.5523 13 18 12.5523 18 12C18 11.4477 17.5523 11 17 11H13V7C13 6.44771 12.5523 6 12 6C11.4477 6 11 6.44771 11 7V11H7C6.44772 11 6 11.4477 6 12C6 12.5523 6.44772 13 7 13H11V17Z" fill="rgb(140,194,63)"/></svg>
           </div>
-          <Button textOnBtn="Оформить заказ" btnClassName="ussualBtn" inlineStyle="padding:0 60px:fontSize:16px:marginBottom:40px:lineHeight:60px:marginTop:20px:width:100%"></Button>
+          <p>Дата визита</p>
+          <input type="date" className="borderInFormDate"/>
+          <p>Время визита</p>
+          <input type="time" className="borderInFormDate "/>
+          <p>Адрес ресторана</p>
+          <label for="ad1"><input type="radio" name="adress" id="ad1"></input>м. Чернышевская, ул. Захарьевская, 27</label>
+          <label for="ad2"><input type="radio" name="adress" id="ad2"></input>м. Владимирская, Владимирский пр., 8</label>
+          <label for="ad3"><input type="radio" name="adress" id="ad3"></input>м. Звенигородская, ул. Марата, 67</label>
+          <label for="ad4"><input type="radio" name="adress" id="ad4"></input>м. Площадь Восстания, ул. Восстания, 33</label>
+          <label for="ad5"><input type="radio" name="adress" id="ad5"></input>м. Черная Речка, ул. Ланское шоссе, 13</label>
+          <p>Перезвонить для подтверждения брони?</p>
+          <label for="conf1"><input type="radio" name="conf" id="conf1"></input>Да</label>
+          <label for="conf2"><input type="radio" name="conf" id="conf2"></input>Нет</label>
+          <Button textOnBtn="Забронировать" btnClassName="ussualBtn" inlineStyle="padding:0 60px:fontSize:16px:marginBottom:40px:lineHeight:60px:marginTop:20px:width:100%"></Button>
           {/* <button type="submit">Оформить заказ</button> */}
           <p>Отправляя данные, вы соглашаетесь с условиями обработки персональных данных.</p>
         </form>

@@ -69,9 +69,8 @@
 .minMenuItem {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1100px;
-  justify-content: space-evenly;
-
+  justify-content: flex-start;
+  background: rgb(239,239,239);
   margin-bottom: 20px;
   overflow: hidden;
 }
@@ -101,6 +100,10 @@
   flex-direction: column;
   align-items: center;
   background: #ebebeb;
+}
+
+.textAbout_us {
+  max-width: 850px;
 }
 
 .adress {

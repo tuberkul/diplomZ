@@ -14,7 +14,7 @@ function Menu() {
         <div>
           <h2 className='black' style={{textAlign: 'left', paddingLeft: '30px'}}>Закуски:</h2>
           <div className='minMenuItem'>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/tykva.jpg", name: "Запеченные тыквенные кубики с ароматными специями и оливковым маслом", price: "240"}}/>
           <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
           <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
           </div>
