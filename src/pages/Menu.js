@@ -16,7 +16,7 @@ function Menu() {
           <div className='minMenuItem'>
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/tykva.jpg", name: "Запеченные тыквенные кубики с ароматными специями и оливковым маслом", price: "360"}}/>
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/zakyska_2.jpg", name: "Авокадо-гуакамоле с свежими овощами и хрустящими тостами из цельнозернового хлеба", price: "420"}}/>
-          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/zakyska_3.jpg", name: "Роллы из киноа и овощей с соусом на основе греческого йогурта", price: "500"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/zakyska_3.jpeg", name: "Роллы из киноа и овощей с соусом на основе греческого йогурта", price: "500"}}/>
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/zakyska_4.jpg", name: "Цветная капуста, запеченная с куркумой, кунжутом и лимонным соком", price: "480"}}/>
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/zakyska_5.jpg", name: "Домашний паштет из куриной печени", price: "420"}}/>
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/zakyska_6.jpg", name: "Ассорти тапасов", price: "560"}}/>
