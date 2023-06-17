@@ -18,7 +18,7 @@ function NavMenu() {
     return (
         <div className={classForNavMenuWrapper}>
             <div className="logo">
-                <img src={logo} alt="" />
+                <img src={logo} alt=""  width='55 px'/>
             </div>
             <div className="navMenuList">
             <div className="white">О нас</div>

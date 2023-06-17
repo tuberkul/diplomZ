@@ -1,7 +1,7 @@
 .footer {
     /* height: 550px; */
     background-size: cover;
-    background-image: url(https://thumb.tildacdn.com/tild3665-3838-4661-a564-656566616234/-/format/webp/IMG_5054.jpg);
+    background-image: url('../../img/foot.jpg');
     display: flex;
     align-items: center;
     justify-content: center;

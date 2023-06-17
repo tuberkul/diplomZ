@@ -1,7 +1,7 @@
 .box {
     height: 100vh;
     background-size: cover;
-    background-image: url('../../img/bg-static-main.jpg');
+    background-image: url('../../img/img_2.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@
 .minDelivery {
   height: 550px;
   background-size: cover;
-  background-image: url('../../img/bg-static-delivery.png');
+  background-image: url('../../img/biznes.jpeg');
   display: flex;
   align-items: center;
   justify-content: center;

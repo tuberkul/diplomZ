@@ -8,8 +8,7 @@ function Menu() {
       <div className="Menu">
         <div className="box-menu background-tint">
           <div className="u-relative">
-            <h1 className='white'>Доставка итальянской кухни от 30 минут во все районы города!</h1>
-            <p style={{color: "#f8f8f8", opacity: 0.7}}>Каждый день | 11:00 - 21:30</p>
+            <h1 className='white'>Взрыв вкуса и здоровья: Меню, которое перевернет ваше представление о здоровом питании!</h1>
           </div>
         </div>
         <div>
