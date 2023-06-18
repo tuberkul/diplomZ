@@ -7,7 +7,7 @@ function MinMenuItem(props) {
     <div className="MinMenuItemWrapper">
         <img src={img} alt="" />
         <p style={{maxWidth:"250px"}}><b>{name}</b></p>
-        <p>от {price} р</p>
+        <p>{price} р</p>
     </div>
   );
 }
