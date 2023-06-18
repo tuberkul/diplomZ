@@ -186,17 +186,17 @@ function Home() {
           <h2>Наши скидки и акции</h2>
           <div className="discounts_items_wrapper">
             <div className="discounts_item">
-              <img src='../../img/banner_1.png'/>
+              <img src='https://tuberkul.github.io/diplomZ/src/img/banner_1.png'/>
               <p><b>Скидка 30%<br />в день рождения! </b></p>
               <p>Действует за 2 дня до и 5 дней после дня рождения при предъявлении паспорта. Тёплые поздравления и сладкий подарок от команды ресторана.</p>
             </div>
             <div className="discounts_item">
-              <img src="https://thumb.tildacdn.com/tild3862-6336-4261-b638-373739343132/-/cover/720x504/center/center/-/format/webp/Liman_12-09-21_189.jpg" alt="" />
+              <img src="https://tuberkul.github.io/diplomZ/src/img/banner_2.png" alt="" />
               <p><b>Здоровый обед для детей!</b></p>
               <p>Специальное детское меню со здоровыми и тематическими блюдами, специально разработанными для маленьких гостей. Укрепляем здоровье смолоду!</p>
             </div>
             <div className="discounts_item">
-              <img src="https://thumb.tildacdn.com/tild3466-6565-4462-b936-396566373136/-/cover/720x504/center/center/-/format/webp/Lhsm344QR4I.jpg" alt="" />
+              <img src="https://tuberkul.github.io/diplomZ/src/img/banner_3.png" alt="" />
               <p><b>Скидка 10% при заказе на самовывоз!</b></p>
               <p>Здоровый и вкусный перекус всегда с вами. Скидка не суммируется с другими акциями и скидками кроме скидки на день рождения.</p>
             </div>
