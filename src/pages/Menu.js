@@ -52,9 +52,12 @@ function Menu() {
         <div>
           <h2 className='black' style={{textAlign: 'left', paddingLeft: '30px'}}>Вторые блюда:</h2>
           <div className='minMenuItem'>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_1.jpg", name: "Гриль-лосось с картофельным пюре из сладкого картофеля и гриль-овощами", price: "450"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_2.jpg", name: "Куриная грудка, запеченная с лимоном и травами, с киноа-салатом и авокадо", price: "500"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_3.jpg", name: "Треска на пару с картофельным гратеном и свежим овощным гарниром", price: "550"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_4.jpg", name: "Вегетарианские котлеты из цветной капусты, овощей и киноа, подаются с соусом на основе греческого йогурта", price: "480"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_5.jpg", name: "Стейк из индейки с жасминовым рисом и гриль-овощами", price: "550"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_6.jpg", name: "Веганская паста с томатным соусом, грибами, шпинатом и тостовыми крошками", price: "420"}}/>
           </div>
           
         </div>
