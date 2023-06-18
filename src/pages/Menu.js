@@ -56,7 +56,7 @@ function Menu() {
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_2.jpg", name: "Куриная грудка, запеченная с лимоном и травами, с киноа-салатом и авокадо", price: "500"}}/>
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_3.jpg", name: "Треска на пару с картофельным гратеном и свежим овощным гарниром", price: "550"}}/>
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_4.jpg", name: "Вегетарианские котлеты из цветной капусты, овощей и киноа, подаются с соусом на основе греческого йогурта", price: "480"}}/>
-          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_5.jpg", name: "Стейк из индейки с жасминовым рисом и гриль-овощами", price: "550"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_5.jpeg", name: "Стейк из индейки с жасминовым рисом и гриль-овощами", price: "550"}}/>
           <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/hot_6.jpg", name: "Веганская паста с томатным соусом, грибами, шпинатом и тостовыми крошками", price: "420"}}/>
           </div>
           
@@ -78,9 +78,12 @@ function Menu() {
         <div>
           <h2 className='black' style={{textAlign: 'left', paddingLeft: '30px'}}>Напитки:</h2>
           <div className='minMenuItem'>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/drink_1.jpg", name: "Свежевыжатые соки: яблочный, апельсиновый, грейпфрутовый, морковный, свекольный и другие комбинации соков из свежих овощей и фруктов", price: "240"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/drink_2.jpg", name: "Зеленые смузи: смузи на основе зеленых овощей, таких как шпинат, кале, и яблок, с добавлением свежих фруктов и зелени", price: "300"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/drink_3.jpg", name: "Компоты: натуральные компоты из свежих фруктов, таких как яблоки, груши, вишни, с добавлением нежирного йогурта или меда для сладости", price: "240"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/drink_4.jpg", name: "Травяные чаи: различные травяные чаи, такие как ромашка, мята, зеленый чай, имбирный чай, которые имеют положительное воздействие на организм", price: "300"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/drink_5.jpg", name: "Протеиновые коктейли: коктейли на основе протеинового порошка с добавлением фруктов, орехового молока или йогурта, которые способствуют восстановлению мышц после тренировок", price: "350"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/drink_6.jpg", name: "Натуральные минеральные воды: предложение разнообразных натуральных минеральных вод без добавления газа и консервантов", price: "240"}}/>
           </div>
           
         </div>
