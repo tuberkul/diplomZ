@@ -191,12 +191,12 @@ function Home() {
               <p>Действует за 2 дня до и 5 дней после дня рождения при предъявлении паспорта. Тёплые поздравления и сладкий подарок от команды ресторана.</p>
             </div>
             <div className="discounts_item">
-              <img src="https://tuberkul.github.io/diplomZ/src/img/banner_2.png" alt="" />
+              <img src="https://tuberkul.github.io/diplomZ/src/img/banner_2.jpg" alt="" />
               <p><b>Здоровый обед для детей!</b></p>
               <p>Специальное детское меню со здоровыми и тематическими блюдами, специально разработанными для маленьких гостей. Укрепляем здоровье смолоду!</p>
             </div>
             <div className="discounts_item">
-              <img src="https://tuberkul.github.io/diplomZ/src/img/banner_3.png" alt="" />
+              <img src="https://tuberkul.github.io/diplomZ/src/img/banner_3.jpg" alt="" />
               <p><b>Скидка 10% при заказе на самовывоз!</b></p>
               <p>Здоровый и вкусный перекус всегда с вами. Скидка не суммируется с другими акциями и скидками кроме скидки на день рождения.</p>
             </div>
