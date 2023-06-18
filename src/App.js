@@ -12,15 +12,15 @@ import { useState } from 'react';
 
 function App() {
   const [visibilaty, setVisibilaty] = useState('false');
-
+  const[PopupClass, setPopupClass] = useState("popupBoxClose");
 
   return (
     <div className="App">
 
-      <Popup visibilaty={visibilaty}> 
+      <Popup visibilaty={visibilaty} setVisibilaty={setVisibilaty} PopupClass={PopupClass} setPopupClass={setPopupClass}> 
       </Popup>
       <Router>
-      <NavMenu setVisibilaty={setVisibilaty}>
+      <NavMenu setVisibilaty={setVisibilaty} setPopupClass={setPopupClass}>
       </NavMenu>
           <Routes>
             <Route exact path='/' element={<Home />} />

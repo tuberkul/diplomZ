@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 // import { useNavigate } from "react-router-dom";
-import Popup from '../PopupCart/PopupCart';
+
 
 import "./NavMenu.css"
 import logo from '../../img/logo_2.png'
 import Button from "../Button/Button";
-function NavMenu({setVisibilaty}) {
+function NavMenu({setVisibilaty, setPopupClass}) {
     const [classForNavMenuWrapper, setclassForNavMenuWrapper] = useState('NavMenuWrapper');
 
     document.addEventListener('scroll', (e) => {
@@ -17,7 +17,7 @@ function NavMenu({setVisibilaty}) {
         }
     })
     function onHandleClick() {
-        setVisibilaty(true);
+        setPopupClass('popup-box')
         console.log(123)
     }
     return (

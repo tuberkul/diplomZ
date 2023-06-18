@@ -1,40 +1,27 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import "./PopupCart.css"
 import Button from "../Button/Button";
-import IMask from "imask";
-const Popup = props => {
-  const[PopupClass, setPopupClass] = useState("popup-box")
+const Popup = ({visibilaty, setVisibilaty, PopupClass, setPopupClass}) => {
   const [counter, setCounter] = useState(0)
+
   function onClosePopup (){
-    setPopupClass("popupBoxClose") 
+    setPopupClass("popupBoxClose");
+
   }
-  // var phoneMask = IMask(
-  //   document.getElementById('phone-mask'), {
-  //     mask: '+{7}(000)000-00-00'
-  //   });
+
   const handleClick1 = () => {
-    // Counter state is incremented
+
     setCounter(counter + 1)
   }
-  
-  // Function is called everytime decrement button is clicked
+
   const handleClick2 = () => {
-    // Counter state is decremented
+
     setCounter(counter - 1)
     if (counter <= 0) {
       setCounter(0)
     }
   }
 
-  useEffect(() => {
-    console.log(1)
-    if (props.visibilaty) {
-      setPopupClass("popup-box")
-    }
-}, [])
-// if (props.visibilaty) {
-//   setPopupClass("popup-box")
-// }
 
   return (
     <div className={PopupClass}>
