@@ -143,9 +143,9 @@ function Home() {
               <p>В нашем меню вы найдете широкий выбор блюд, созданных с использованием свежих овощей, зелени и сезонных фруктов. Наша команда талантливых поваров готовит для вас овощные салаты, рыбные и мясные горячие блюда, приготовленные с использованием нежирных и качественных ингредиентов. В баре нашего ресторана представлены свежевыжатые соки, освежающие зеленые смузи и нежирные молочные коктейли, подборка качественных и натуральных напитков, включая органические чаи и травяные настои, а также, безалкогольных коктейлей, приготовленных с использованием свежих фруктов и натуральных ингредиентов.</p>
           </div>
           <div className="btnsMenuWrapper">
-            <Button textOnBtn="Основное меню" btnClassName="ussualBtn" inlineStyle="padding:20px 60px:fontSize:16px:height:55px"></Button>
+          {/* <Button textOnBtn="Основное меню" btnClassName="ussualBtn" inlineStyle="padding:20px 60px:fontSize:16px:height:55px"></Button> */}
             {/* <Button textOnBtn="Банкетное меню" btnClassName="ussualBtn" inlineStyle="padding:20px 60px:fontSize:16px:height:55px"></Button> */}
-            <Button textOnBtn="Барное меню" btnClassName="ussualBtn" inlineStyle="padding:20px 60px:fontSize:16px:height:55px"></Button>
+            {/* <Button textOnBtn="Барное меню" btnClassName="ussualBtn" inlineStyle="padding:20px 60px:fontSize:16px:height:55px"></Button> */}
           </div>
           <div className="minMenuItem">
             {elements}
@@ -155,7 +155,7 @@ function Home() {
           <div className="u-relative">
             <h2 className='white'>Легкие и свежие бизнес-ланчи сделают ваш день ярче!</h2>
             <p className='white'>Каждый день | 10:00 - 14:30</p>
-            <Button textOnBtn="Посмотреть меню" btnClassName="ussualBtn" inlineStyle="padding:20px 60px:fontSize:16px:height:55px:marginTop:20px"></Button>
+            <NavLink to="/menu"><Button textOnBtn="Посмотреть меню" btnClassName="ussualBtn" inlineStyle="padding:20px 60px:fontSize:16px:height:55px:marginTop:20px"></Button></NavLink>
           </div>
         </div>
         <div className="about_us" name="aboutUs">
@@ -168,7 +168,7 @@ function Home() {
                           disableButtonsControls="false"
                           infinite="true" 
                           />
-          <Button textOnBtn="ЗАБРОНИРОВАТЬ СТОЛИК" btnClassName="ussualBtn" inlineStyle="padding:0 60px:fontSize:16px:marginBottom:20px:lineHeight:60px"></Button>
+          {/* <Button textOnBtn="ЗАБРОНИРОВАТЬ СТОЛИК" btnClassName="ussualBtn" inlineStyle="padding:0 60px:fontSize:16px:marginBottom:20px:lineHeight:60px"></Button> */}
           <p className='textUnderButton'>Погружаясь в атмосферу нашего ресторана здорового питания, вы словно переноситесь в оазис здоровья и благополучия. Здесь вы сможете насладиться изысканными блюдами, вдохновленными разнообразными кухнями мира, но при этом заботиться о своем здоровье и благополучии.</p>
         </div>
         <div className="reviews">
@@ -180,7 +180,7 @@ function Home() {
                           disableButtonsControls="false"
                           infinite="true" 
                           />
-          <Button textOnBtn="ОСТАВИТЬ ОТЗЫВ" btnClassName="ussualBtn" inlineStyle="padding:0 60px:fontSize:16px:marginBottom:40px:lineHeight:60px:marginTop:20px"></Button>
+          {/* <Button textOnBtn="ОСТАВИТЬ ОТЗЫВ" btnClassName="ussualBtn" inlineStyle="padding:0 60px:fontSize:16px:marginBottom:40px:lineHeight:60px:marginTop:20px"></Button> */}
         </div>
         <div className="discounts" name="promo">
           <h2>Наши скидки и акции</h2>
