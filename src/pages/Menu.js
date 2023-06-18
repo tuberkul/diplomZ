@@ -65,9 +65,12 @@ function Menu() {
         <div>
           <h2 className='black' style={{textAlign: 'left', paddingLeft: '30px'}}>Десерты:</h2>
           <div className='minMenuItem'>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/desert_1.jpg", name: "Фруктовый салат с свежими сезонными фруктами, подается с йогуртовым соусом и посыпается гранолой", price: "300"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/desert_2.jpg", name: "Шоколадный авокадо-пудинг с натуральным какао, медом и ягодами", price: "350"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/desert_3.jpg", name: "Лимонный чизкейк с миндальным основанием и нежным сырным кремом на основе греческого йогурта", price: "400"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/desert_4.jpg", name: "Банановые оладьи с орехами, кокосовой стружкой и кленовым сиропом", price: "380"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/desert_5.jpg", name: "Мороженое на основе кокосового молока с ванильным ароматом, подается с свежими ягодами и миндальной крошкой", price: "400"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/desert_6.jpg", name: "Ягодная парфе с слоями свежих ягод, йогурта и орехового гранолы", price: "450"}}/>
           </div>
           
         </div>
