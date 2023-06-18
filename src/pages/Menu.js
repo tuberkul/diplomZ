@@ -39,9 +39,12 @@ function Menu() {
         <div>
           <h2 className='black' style={{textAlign: 'left', paddingLeft: '30px'}}>Супы:</h2>
           <div className='minMenuItem'>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/sup_1.jpg", name: "Крем-суп из тыквы с кокосовым молоком и имбирными нотками", price: "300"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/sup_2.jpg", name: "Минестроне с овощами, томатами, белыми бобами и свежим базиликом", price: "380"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/sup_3.jpg", name: "Легкий овощной суп с брокколи, шпинатом, горошком и зелеными фасолью", price: "350"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/sup_4.jpg", name: "Томатный гаспачо с огурцом, перцем, луком и базиликом", price: "470"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/sup_5.jpg", name: "Грибной крем-суп с шампиньонами, луком, чесноком и сливками", price: "420"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/sup_6.jpg", name: "Азиатский фасолевый суп с красной фасолью, лапшой, овощами и соусом на основе соевого соуса и имбиря", price: "550"}}/>
           </div>
           
         </div>
