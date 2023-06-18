@@ -5,6 +5,7 @@ import MinMenuItem from '../components/MInMenuItem/MinMenuItem';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import {NavLink} from "react-router-dom";
+import img from '../img/123.jpg'
 
 const result = [];
 for(var i in data) {
@@ -12,7 +13,7 @@ for(var i in data) {
 }
 console.log(result)
 const elements = result.map((item, i) => {
-  if ( i < 9) {
+  if ( i < 6) {
     return (<NavLink to="/menu" key={i}><MinMenuItem data = {item[1]} onClick={onTouchMenu}/></NavLink>)
   } else {
     return('')
@@ -35,28 +36,28 @@ function onTouchMenu() {
 
 const items = [
   <div>
-    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_1.jpg" onDragStart={handleDragStart} role="presentation" alt='1' />
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_1.jpg" onDragStart={handleDragStart} role="presentation" alt='1' style={{maxWidth: "594px"}}/>
     <div className="">
       <p><b>Улица Каменноостровский проспект, дом 67</b></p>
       <p>пн-пт 10:00-23:00, сб-вс 11:00-00:00</p>
     </div>
   </div>,
   <div>
-    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_2.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
+    <img src={img} onDragStart={handleDragStart} role="presentation" alt='1' style={{maxWidth: "594px"}}/>
     <div className="">
       <p><b>Проспект Обуховской Обороны, дом 92</b></p>
       <p>ежедневно 10:00-23:00</p>
     </div>
   </div>,
   <div>
-    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_3.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_3.jpg" onDragStart={handleDragStart} role="presentation" alt='1'style={{maxWidth: "594px"}}/>
     <div className="">
       <p><b>Улица Большая Пушкарская, дом 14</b></p>
       <p>ежедневно 10:00-23:00</p>
     </div>
   </div>,
   <div>
-    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_4.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_4.jpg" onDragStart={handleDragStart} role="presentation" alt='1'style={{maxWidth: "594px"}}/>
     <div className="">
       <p><b>Переулок Макаренко, дом 5</b></p>
       <p>пн-пт 10:00-23:00, сб-вс 10:00-00:00</p>
@@ -64,7 +65,7 @@ const items = [
   </div>
   ,
   <div>
-    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_5.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_5.jpg" onDragStart={handleDragStart} role="presentation" alt='1'style={{maxWidth: "594px"}}/>
     <div className="">
       <p><b>Улица Средняя Подьяческая, дом 19</b></p>
       <p>пн-пт 10:00-23:00, сб-вс 10:00-00:00</p>

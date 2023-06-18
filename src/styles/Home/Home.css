@@ -69,15 +69,16 @@
 .minMenuItem {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  background: rgb(239,239,239);
+  justify-content: center;
   margin-bottom: 20px;
   overflow: hidden;
+  max-width: 1500px;
 }
 
 .minMenuItem img {
-  max-height: 360px;
+  max-height: 240px;
   max-width: 360px;
+  min-width: 360px;
 }
 
 .MinMenuItemWrapper p {

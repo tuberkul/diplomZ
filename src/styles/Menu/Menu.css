@@ -8,3 +8,23 @@
     align-content: center;
     background-attachment: fixed;
 }
+
+.minMenuItemItem {
+    display: flex;
+}
+
+.minMenuItemMenu {
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(239,239,239);
+    margin-bottom: 20px;
+    overflow: hidden;
+    flex-basis: 33.333333%;
+    flex-direction: column;
+}
+
+.minMenuItemMenu img {
+    max-height: 240px;
+    max-width: 360px;
+    min-width: 360px;
+  }

@@ -20,11 +20,15 @@ function NavMenu({setVisibilaty, setPopupClass}) {
         setPopupClass('popup-box')
         console.log(123)
     }
+
+    function onRedirect() {
+        document.location.href="/";
+    }
     return (
         <div className={classForNavMenuWrapper}>
 
-            <div className="logo">
-                <Link className="white btnToScroll" to="home" spy={true} smooth={true} offset={-75} duration={500}><img src={logo} alt=""  width='55 px'/></Link>
+            <div className="logo" >
+                <Link className="white btnToScroll" to="home" spy={true} smooth={true} offset={-75} duration={500} onClick={onRedirect}><img src={logo} alt=""  width='55 px'/></Link>
             </div>
             <div className="navMenuList">
             <div className="white"><Link className="white btnToScroll" to="aboutUs" spy={true} smooth={true} offset={-75} duration={500}>О нас</Link></div>

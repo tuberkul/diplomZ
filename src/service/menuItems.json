@@ -4,8 +4,5 @@
     {"name" : "Супы", "price" : "270", "img" : "https://static.tildacdn.com/tild3064-6339-4437-b032-346430316438/2.png"},
     {"name" : "Паста", "price" : "450", "img" : "https://static.tildacdn.com/tild3563-3565-4266-a562-623466633462/53.jpg"},
     {"name" : "Риззото", "price" : "490", "img" : "https://static.tildacdn.com/tild6431-6466-4336-b866-306366346130/Liman_12-09-21_87.jpg"},
-    {"name" : "Основные блюда", "price" : "460", "img" : "https://static.tildacdn.com/tild6338-6633-4438-a330-366235323666/18.jpg"},
-    {"name" : "Пицца", "price" : "290", "img" : "https://static.tildacdn.com/tild6263-3839-4538-a164-396134383734/3.png"},
-    {"name" : "Бургеры", "price" : "510", "img" : "https://static.tildacdn.com/tild3139-3336-4133-b530-343266636434/10.jpg"},
-    {"name" : "Десерты", "price" : "120", "img" : "https://static.tildacdn.com/tild3665-3639-4235-a436-623139316430/79036B5D-1001-4339-8.jpeg"}
+    {"name" : "Основные блюда", "price" : "460", "img" : "https://static.tildacdn.com/tild6338-6633-4438-a330-366235323666/18.jpg"}
 ]
