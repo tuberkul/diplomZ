@@ -26,9 +26,12 @@ function Menu() {
         <div>
           <h2 className='black' style={{textAlign: 'left', paddingLeft: '30px'}}>Салаты:</h2>
           <div className='minMenuItem'>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
-          <MinMenuItem data = {{img: "https://thumb.tildacdn.com/tild6437-6233-4432-b561-326262656466/-/cover/312x362/center/center/-/format/webp/c.png", name: "Салат", price: "240"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/salat_1.jpg", name: "Зеленое оазис", price: "350"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/salat_2.jpg", name: "Медитерранео", price: "400"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/salat_3.jpg", name: "Азиатский вихрь", price: "420"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/salat_4.jpg", name: "Протеиновый удар", price: "380"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/salat_5.jpg", name: "Радужный коктейль", price: "450"}}/>
+          <MinMenuItem data = {{img: "https://tuberkul.github.io/diplomZ/src/img/salat_6.jpg", name: "Итальянский сонет", price: "500"}}/>
           </div>
           
         </div>
