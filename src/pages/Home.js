@@ -35,28 +35,28 @@ function onTouchMenu() {
 
 const items = [
   <div>
-    <img src="https://thumb.tildacdn.com/tild3964-3839-4538-b732-326432663531/-/cover/760x550/center/center/-/format/webp/1b54aa0bca2a0db881de.jpg" onDragStart={handleDragStart} role="presentation" alt='1' />
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_1.jpg" onDragStart={handleDragStart} role="presentation" alt='1' />
     <div className="">
       <p><b>Улица Каменноостровский проспект, дом 67</b></p>
       <p>пн-пт 10:00-23:00, сб-вс 11:00-00:00</p>
     </div>
   </div>,
   <div>
-    <img src="https://thumb.tildacdn.com/tild6332-3763-4933-a433-393362353032/-/cover/760x550/center/center/-/format/webp/Q-T73BnLp_g.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_2.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
     <div className="">
       <p><b>Проспект Обуховской Обороны, дом 92</b></p>
       <p>ежедневно 10:00-23:00</p>
     </div>
   </div>,
   <div>
-    <img src="https://thumb.tildacdn.com/tild6265-3965-4466-b264-623161623361/-/cover/760x550/center/center/-/format/webp/photo.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_3.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
     <div className="">
       <p><b>Улица Большая Пушкарская, дом 14</b></p>
       <p>ежедневно 10:00-23:00</p>
     </div>
   </div>,
   <div>
-    <img src="https://thumb.tildacdn.com/tild6430-6133-4566-a464-356530326264/-/cover/760x550/center/center/-/format/webp/C450CDFB-BF40-4A96-8.jpeg" onDragStart={handleDragStart} role="presentation" alt='1'/>
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_4.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
     <div className="">
       <p><b>Переулок Макаренко, дом 5</b></p>
       <p>пн-пт 10:00-23:00, сб-вс 10:00-00:00</p>
@@ -64,7 +64,7 @@ const items = [
   </div>
   ,
   <div>
-    <img src="https://thumb.tildacdn.com/tild6235-3331-4364-a630-336166346138/-/cover/760x550/center/center/-/format/webp/wGVY3fAwKi0.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
+    <img src="https://tuberkul.github.io/diplomZ/src/img/rest_5.jpg" onDragStart={handleDragStart} role="presentation" alt='1'/>
     <div className="">
       <p><b>Улица Средняя Подьяческая, дом 19</b></p>
       <p>пн-пт 10:00-23:00, сб-вс 10:00-00:00</p>
@@ -186,17 +186,17 @@ function Home() {
           <h2>Наши скидки и акции</h2>
           <div className="discounts_items_wrapper">
             <div className="discounts_item">
-              <img src='../../img/banner_1.png'/>
+              <img src='https://tuberkul.github.io/diplomZ/src/img/banner_1.png'/>
               <p><b>Скидка 30%<br />в день рождения! </b></p>
               <p>Действует за 2 дня до и 5 дней после дня рождения при предъявлении паспорта. Тёплые поздравления и сладкий подарок от команды ресторана.</p>
             </div>
             <div className="discounts_item">
-              <img src="https://thumb.tildacdn.com/tild3862-6336-4261-b638-373739343132/-/cover/720x504/center/center/-/format/webp/Liman_12-09-21_189.jpg" alt="" />
+              <img src="https://tuberkul.github.io/diplomZ/src/img/banner_2.jpg" alt="" />
               <p><b>Здоровый обед для детей!</b></p>
               <p>Специальное детское меню со здоровыми и тематическими блюдами, специально разработанными для маленьких гостей. Укрепляем здоровье смолоду!</p>
             </div>
             <div className="discounts_item">
-              <img src="https://thumb.tildacdn.com/tild3466-6565-4462-b936-396566373136/-/cover/720x504/center/center/-/format/webp/Lhsm344QR4I.jpg" alt="" />
+              <img src="https://tuberkul.github.io/diplomZ/src/img/banner_3.jpg" alt="" />
               <p><b>Скидка 10% при заказе на самовывоз!</b></p>
               <p>Здоровый и вкусный перекус всегда с вами. Скидка не суммируется с другими акциями и скидками кроме скидки на день рождения.</p>
             </div>

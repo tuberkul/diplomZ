@@ -45,11 +45,11 @@ const Popup = ({visibilaty, setVisibilaty, PopupClass, setPopupClass}) => {
           <p>Время визита</p>
           <input type="time" className="borderInFormDate "/>
           <p>Адрес ресторана</p>
-          <label for="ad1"><input type="radio" name="adress" id="ad1"></input>м. Чернышевская, ул. Захарьевская, 27</label>
-          <label for="ad2"><input type="radio" name="adress" id="ad2"></input>м. Владимирская, Владимирский пр., 8</label>
-          <label for="ad3"><input type="radio" name="adress" id="ad3"></input>м. Звенигородская, ул. Марата, 67</label>
-          <label for="ad4"><input type="radio" name="adress" id="ad4"></input>м. Площадь Восстания, ул. Восстания, 33</label>
-          <label for="ad5"><input type="radio" name="adress" id="ad5"></input>м. Черная Речка, ул. Ланское шоссе, 13</label>
+          <label for="ad1"><input type="radio" name="adress" id="ad1"></input>Улица Каменноостровский проспект, дом 67</label>
+          <label for="ad2"><input type="radio" name="adress" id="ad2"></input>Проспект Обуховской Обороны, дом 92</label>
+          <label for="ad3"><input type="radio" name="adress" id="ad3"></input>Улица Большая Пушкарская, дом 14</label>
+          <label for="ad4"><input type="radio" name="adress" id="ad4"></input>Переулок Макаренко, дом 5</label>
+          <label for="ad5"><input type="radio" name="adress" id="ad5"></input>Улица Средняя Подьяческая, дом 19</label>
           <p>Перезвонить для подтверждения брони?</p>
           <label for="conf1"><input type="radio" name="conf" id="conf1"></input>Да</label>
           <label for="conf2"><input type="radio" name="conf" id="conf2"></input>Нет</label>
