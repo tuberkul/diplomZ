@@ -1,8 +1,8 @@
 [
-    {"name" : "Закуски", "price" : "160", "img" : "https://static.tildacdn.com/tild6363-6265-4335-b633-653062336536/Liman_12-09-21_60.jpg"},
-    {"name" : "Салаты", "price" : "430", "img" : "https://static.tildacdn.com/tild6363-6265-4335-b633-653062336536/Liman_12-09-21_60.jpg"},
-    {"name" : "Супы", "price" : "270", "img" : "https://static.tildacdn.com/tild3064-6339-4437-b032-346430316438/2.png"},
-    {"name" : "Паста", "price" : "450", "img" : "https://static.tildacdn.com/tild3563-3565-4266-a562-623466633462/53.jpg"},
-    {"name" : "Риззото", "price" : "490", "img" : "https://static.tildacdn.com/tild6431-6466-4336-b866-306366346130/Liman_12-09-21_87.jpg"},
-    {"name" : "Основные блюда", "price" : "460", "img" : "https://static.tildacdn.com/tild6338-6633-4438-a330-366235323666/18.jpg"}
+    {"name" : "Закуски", "img" : "https://tuberkul.github.io/diplomZ/src/img/zakuski_img.jpeg"},
+    {"name" : "Салаты", "img" : "https://tuberkul.github.io/diplomZ/src/img/salat_img.jpg"},
+    {"name" : "Супы", "img" : "https://tuberkul.github.io/diplomZ/src/img/sup_img.jpg"},
+    {"name" : "Вторые блюда", "img" : "https://tuberkul.github.io/diplomZ/src/img/hot_img.jpg"},
+    {"name" : "Десерты", "img" : "https://tuberkul.github.io/diplomZ/src/img/desert_img.jpg"},
+    {"name" : "Напитки", "img" : "https://tuberkul.github.io/diplomZ/src/img/drinks_img.jpg"}
 ]

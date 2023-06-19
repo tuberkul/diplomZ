@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 import "./NavMenu.css"
 import logo from '../../img/logo_2.png'
 import Button from "../Button/Button";
-function NavMenu({setVisibilaty, setPopupClass}) {
+function NavMenu({setPopupClass}) {
     const [classForNavMenuWrapper, setclassForNavMenuWrapper] = useState('NavMenuWrapper');
 
     document.addEventListener('scroll', (e) => {

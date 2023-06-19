@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./PopupCart.css"
 import Button from "../Button/Button";
-const Popup = ({visibilaty, setVisibilaty, PopupClass, setPopupClass}) => {
+const Popup = ({PopupClass, setPopupClass}) => {
   const [counter, setCounter] = useState(0)
 
   function onClosePopup (){
